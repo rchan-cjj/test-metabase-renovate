@@ -23,7 +23,8 @@
     ],
     "packageRules": [
       {
-        "matchPackageNames": ["metabase"],
+        "matchPackageNames": ["metabase/metabase"],
+        "sourceUrl": "https://github.com/metabase/metabase/",
         "changelogUrl": "https://www.metabase.com/changelog"
       }
     ]

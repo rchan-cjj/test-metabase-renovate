@@ -20,5 +20,11 @@
             "datasourceTemplate": "docker",
             "extractVersionTemplate": "v(?<version>.*)"
         }
+    ],
+    "packageRules": [
+      {
+        "matchPackageNames": ["metabase"],
+        "changelogUrl": "https://www.metabase.com/changelog"
+      }
     ]
 }
